@@ -7,7 +7,7 @@ YOUR_PASSWORD = "skpd bjfj bxpa wgfm" # make an app password for gmail (turn on 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
-with open("message.txt", "r") as file:
+with open("message.txt", "r") as file: # change message.txt up a lil bit
     base_message = file.read()
 
 with open("updated.csv", newline='') as csvfile: # use colleges.csv, i used updated bc my gmail crashed in the middle
@@ -27,4 +27,4 @@ with open("updated.csv", newline='') as csvfile: # use colleges.csv, i used upda
             server.login(YOUR_EMAIL, YOUR_PASSWORD)
             server.sendmail(YOUR_EMAIL, email, msg.as_string())
 
-print("All emails sent.")
+print("sent emailiggas")

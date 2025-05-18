@@ -2,8 +2,8 @@ import csv
 import smtplib
 from email.mime.text import MIMEText
 
-YOUR_EMAIL = "wenhaolu2027@gmail.com"
-YOUR_PASSWORD = "skpd bjfj bxpa wgfm" # make an app password for gmail (turn on 2 step verification first), should be 16 letter
+YOUR_EMAIL = "yeshrooms@gmail.com"
+YOUR_PASSWORD = "daniel is gay" # make an app password for gmail (turn on 2 step verification first), should be 16 letter
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
